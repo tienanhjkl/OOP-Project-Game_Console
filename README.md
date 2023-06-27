@@ -4,21 +4,20 @@
 - Input: Danh sách các Hero của các bên tham gia hiệp đấu.
 - Output: Kết quả trận đấu (Thắng hay hòa; Thắng thì ai là người thắng) in ra màn hình. Ngoài in kết quả thắng thua còn in danh sách và chỉ số của các hero trong trận đấu.
 # Mô tả game play:
-1. Nhân vật
-1.1 Danh sách nhân vật 
+1. Nhân vật 
 - Xem file đính kèm “ListHero.txt”.
 - Chương trình khi khời động sẽ load các hero từ “ListHero.txt” và lưu trong một danh sách (list/vector).
 - Mỗi dòng trong file là info của một hero; có cấu trúc như sau:
       <tên hero>;<thuộc tính>;<Máu>;<Công>;<thủ>;<tốc độ>
-  Ví dụ: Treant Protector;Wood;700;62;1.5;38
+-	 Ví dụ: Treant Protector;Wood;700;62;1.5;38
 - Danh sách Hero có thể được cập nhật/thêm mới từ bán phím và được lưu trữ tại file “ListHero.txt”.
-1.2 Các chỉ số của nhân vật
-Mỗi Hero có tất cả 4 chỉ số đó là:
-	Máu: nếu chỉ số máu về 0 thì nhân vật sẽ tính là chết.
-	Công: là sức mạnh sát thương gây lên đối phương.
-	Thủ: khả năng kháng một phần sức mạnh công của đối phương.
-	Tốc độ đánh: Là thời gian cho 1 chu kì ra đòn của Hero, chỉ số này càng nhỏ thì tốc độ đánh càng nhanh và ngược lại.
-   
+- Các chỉ số của nhân vật
+- Mỗi Hero có tất cả 4 chỉ số đó là:
+- Máu: nếu chỉ số máu về 0 thì nhân vật sẽ tính là chết.
+- Công: là sức mạnh sát thương gây lên đối phương.
+- Thủ: khả năng kháng một phần sức mạnh công của đối phương.
+- Tốc độ đánh: Là thời gian cho 1 chu kì ra đòn của Hero, chỉ số này càng nhỏ thì tốc độ đánh càng nhanh và ngược lại.
+- Xem chi tiết trong file docx mô tả project.
 # Kết quả:
 - Kết quả sẽ được in ra màn hình và tự động lưu vào vào file Log.txt.
 - Mỗi dòng là thông tin của 1 hiệp đấu.
