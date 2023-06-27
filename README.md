@@ -24,19 +24,23 @@
 Ví dụ:
     Biến toàn cục thì viết hoa toàn bộ từ đầu tiên.
     Biến hình thức thì viết hoa các chữ cái mỗi từ
-  2.	Hàm xừ lý
+  2.	Hàm xử lý
 - Ưu tiên lấy kết quả trong quá trình xử lý trong hàm bằng cách cho hàm trả về kết quả.
-- Hạn chế sử dụng biến tham chiếu đề lấy kết quả xử lý trong hàm
+- Hạn chế sử dụng biến tham chiếu đề lấy kết quả xử lý trong hàm.
+
   3.	Tổ chức project
 - Tổ chức ít nhất 3 file:
   File *.h : chứa phần khai báo.
   File Source.cpp: Chứa phần định nghĩa.
   File Main.cpp: Chứa hàm main
+
   4.	Lưu trữ dữ liệu
 - Dữ liệu trong file txt.
-- Tất cả các file txt được đặt trong cùng cấp folder project
-  5.	Kiến trúc code.
+- Tất cả các file txt được đặt trong cùng cấp folder project.
+
+  5.	Kiến trúc code
 - Thể hiện được 4 tính chất của OOP
+
   6.	Quy tắc trình bày code
 -	Không để dòng trống.
 -	Thụt đầu dòng.
