@@ -18,31 +18,31 @@
 # Mô tả hệ thống quản lý người chơi:
 ![image](https://github.com/tienanhjkl/OOP-Project-Game_Console/assets/69162614/17360c6b-801e-4769-bff5-9726d3af9def)
 # Yêu cầu kỹ thuật:
-  1.	Tên biến/Hàm/Class…
+1.	Tên biến/Hàm/Class…
 - Đặt tên biến tiếng việt có nghĩa (trừ các biến liên quan đến tên của Hero)
 - Tuân theo quy tắc lạc đà trong đặt tên nhưng có sự phân loại tên có biến/hàm/class … Tức là có quy tắc đặt tên riêng cho mỗi loại.
 Ví dụ:
     Biến toàn cục thì viết hoa toàn bộ từ đầu tiên.
     Biến hình thức thì viết hoa các chữ cái mỗi từ.
-  
-  2.	Hàm xử lý
+
+2.	Hàm xử lý
 - Ưu tiên lấy kết quả trong quá trình xử lý trong hàm bằng cách cho hàm trả về kết quả.
 - Hạn chế sử dụng biến tham chiếu đề lấy kết quả xử lý trong hàm.
 
-  3.	Tổ chức project
+3.	Tổ chức project
 - Tổ chức ít nhất 3 file:
   File *.h : chứa phần khai báo.
   File Source.cpp: Chứa phần định nghĩa.
   File Main.cpp: Chứa hàm main.
 
-  4.	Lưu trữ dữ liệu
+4.	Lưu trữ dữ liệu
 - Dữ liệu trong file txt.
 - Tất cả các file txt được đặt trong cùng cấp folder project.
 
-  5.	Kiến trúc code
+5.	Kiến trúc code
 - Thể hiện được 4 tính chất của OOP.
 
-  6.	Quy tắc trình bày code
+6.	Quy tắc trình bày code
 -	Không để dòng trống.
 -	Thụt đầu dòng.
 -	Phải xuống dòng khi mở ngoặc và đóng ngoặc.
