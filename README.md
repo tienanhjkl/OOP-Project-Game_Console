@@ -3,6 +3,7 @@
 - Xây dựng mô phỏng lại game đấu Hero trên consol (không cần có giao diện đồ họa).
 - Input: Danh sách các Hero của các bên tham gia hiệp đấu.
 - Output: Kết quả trận đấu (Thắng hay hòa; Thắng thì ai là người thắng) in ra màn hình. Ngoài in kết quả thắng thua còn in danh sách và chỉ số của các hero trong trận đấu.
+- Thực hiện theo cá nhân.
 # Mô tả game play:
 1. Nhân vật 
 - Xem file đính kèm “ListHero.txt”.
