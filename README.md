@@ -4,8 +4,6 @@
 - Input: Danh sách các Hero của các bên tham gia hiệp đấu.
 - Output: Kết quả trận đấu (Thắng hay hòa; Thắng thì ai là người thắng) in ra màn hình. Ngoài in kết quả thắng thua còn in danh sách và chỉ số của các hero trong trận đấu.
 # Mô tả game play:
-  1.	Nhân vật.
-    1.1.	Danh sách nhân vật
 - Xem file đính kèm “ListHero.txt”.
 - Chương trình khi khời động sẽ load các hero từ “ListHero.txt” và lưu trong một danh sách (list/vector).
 - Mỗi dòng trong file là info của một hero; có cấu trúc như sau:
@@ -18,10 +16,10 @@
 -	Thông tin được lưu trữ theo cấu trúc sau: <thời gian gio/phut/giay/ngày/tháng/nam><Ten người chơi 1|NPC><Danh sách Hero của người chơi 1|NPC><Người chơi 2>< Danh sách Hero của người chơi 2><kết quả>
 -	Người chơi có thể xem lịch sử lưu trong file log (chỉ in thời gian ra màn hinh); nếu muốn xem chi tiết thông tin của hiệp đấu nào đó, thì người chơi cung cấp thời gian từ bàn phím.
 # Mô tả hệ thống quản lý người chơi:
-- ![image](https://github.com/tienanhjkl/OOP-Project-Game_Console/assets/69162614/17360c6b-801e-4769-bff5-9726d3af9def)
-
+![image](https://github.com/tienanhjkl/OOP-Project-Game_Console/assets/69162614/17360c6b-801e-4769-bff5-9726d3af9def)
 # Yêu cầu kỹ thuật:
   1.	Tên biến/Hàm/Class…
+
 - Đặt tên biến tiếng việt có nghĩa (trừ các biến liên quan đến tên của Hero)
 - Tuân theo quy tắc lạc đà trong đặt tên nhưng có sự phân loại tên có biến/hàm/class … Tức là có quy tắc đặt tên riêng cho mỗi loại.
 Ví dụ:
